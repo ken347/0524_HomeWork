@@ -10,11 +10,15 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color:#E8E8E8;
+}
+
 nav{
     display: grid;
     grid-template-columns: 45% 55% ;
     padding: 30px;
-    position: fixed;
+    position: absolute;
     top: 0;
     width: 100%;
 }
@@ -73,7 +77,12 @@ nav{
 
 section{
     width: 1200px;
-    margin: 0 auto;
+    margin: 30px auto;
+}
+
+.title{
+    letter-spacing: 9.6px;
+    font-weight: 200;
 }
 
 #news h1{
@@ -84,6 +93,42 @@ section{
     text-align: center;
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    margin: 20px auto;
+}
+
+.card{
+    padding: 25px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+#news h3{
+    width: 320px;
+    letter-spacing: 7.9px;
+    padding-left: 7.9px;
+    margin:0 auto;
+}
+
+#news hr{
+    width: 320px;
+    margin: 0 auto;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+.preferential_Information{
+    color: aqua;
+    font-size: 13px;
+    margin: 20px 0;
+}
+
+.article{
+    margin: 15px auto;
+    width: 320px;
+    text-align: left;
+    line-height: 2;
+    letter-spacing: 2.5px;
 }
 
 #news img{

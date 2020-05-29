@@ -1,3 +1,8 @@
+@font-face{
+    font-family: Ngaan;
+    src: url("./font/I.Ngaan.ttf");
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -7,17 +12,50 @@
 
 nav{
     display: grid;
-    grid-template-columns: 40% 60% ;
+    grid-template-columns: 45% 55% ;
     padding: 30px;
     position: fixed;
     top: 0;
     width: 100%;
 }
 
+#brand{
+    font-size: 35px;
+    font-family: Ngaan;
+    text-align: center;
+    color: white;
+}
+
 #link{
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: 75% 25%;
     text-align: center;
+    align-items: center;
+}
+
+#link a{
+    color: white;
+    text-decoration: none;
+}
+
+#linkForLiteral{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+#linkForImage{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+#facebook{
+    width: 28px;
+    height: 29px;
+}
+
+#instagram{
+    width: 30px;
+    height: 30px;
 }
 
 #banner{
@@ -29,5 +67,7 @@ nav{
     color: white;
     align-items: center;
     text-align: center;
+    font-family: Ngaan;
+    font-size: 40px;
 }
 

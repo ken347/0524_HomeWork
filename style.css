@@ -71,3 +71,22 @@ nav{
     font-size: 40px;
 }
 
+section{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#news h1{
+    text-align: center;
+}
+
+#news>div{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+#news img{
+    width: 320px;
+    height: 320px;
+}

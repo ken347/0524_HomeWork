@@ -167,12 +167,12 @@ section{
     border: 10px solid white;
 }
 
-#introduction_Paragraph div{
+#introduction_Paragraph div:first-child{
     letter-spacing: 17px;
     font-weight: 200;
     font-size: 20px;
     text-align: left;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 #introduction_Paragraph ul{
@@ -183,6 +183,21 @@ section{
 
 #introduction_Paragraph ul li{
    letter-spacing: 9.6px;
+}
+
+#more{
+    margin-top:40px ;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    width: 217px;
+    height: 49px;
+    border: 1.5px solid black;   
+}
+
+#more a{
+    text-decoration: none;
+    color: black;
 }
 
 footer{

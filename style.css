@@ -28,6 +28,8 @@ nav{
     font-family: Ngaan;
     text-align: center;
     color: white;
+    letter-spacing: 8.23px;
+
 }
 
 #link{
@@ -181,4 +183,32 @@ section{
 
 #introduction_Paragraph ul li{
    letter-spacing: 9.6px;
+}
+
+footer{
+    text-align: center;
+    margin: 90px auto;
+}
+
+footer h1{
+    font-family: Ngaan;
+    font-weight: bold;
+    color: white;
+    margin:50px auto;
+    font-size: 47px;
+    letter-spacing: 8.23px;
+}
+
+footer div{
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 3;
+}
+
+footer div:nth-child(2){
+    letter-spacing: 7px;
+}
+
+footer div:nth-child(3){
+    letter-spacing: 4px;
 }

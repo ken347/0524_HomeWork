@@ -143,3 +143,42 @@ section{
 #recommendation img{
     margin: 50px auto;
 }
+
+#idea{
+    text-align: center;
+}
+
+#idea>div{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 50px auto;
+    grid-gap: 20px;
+}
+
+#introduction_Picture{
+    text-align:left;
+}
+
+#introduction_Picture>img{
+    width: 600px;
+    height: 400px;
+    border: 10px solid white;
+}
+
+#introduction_Paragraph div{
+    letter-spacing: 17px;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+#introduction_Paragraph ul{
+    list-style: none;
+    text-align: left;
+    line-height: 2;
+}
+
+#introduction_Paragraph ul li{
+   letter-spacing: 9.6px;
+}
